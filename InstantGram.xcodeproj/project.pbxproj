@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3265783462BFE0458C26BA79 /* Pods_InstantGram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D5B601211C00A6D103F649 /* Pods_InstantGram.framework */; };
+		4F1E21AB1D96A5E1CC953029 /* Pods_InstantGram_InstantGramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07E9DF0D9FE06965D8B4D2EB /* Pods_InstantGram_InstantGramUITests.framework */; };
+		6B1D4C4A5592D23864041EE4 /* Pods_InstantGramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D5E8E509CF4A8A2282A774 /* Pods_InstantGramTests.framework */; };
 		7C72DE1B2703FC30003B7E4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C72DE1A2703FC30003B7E4A /* AppDelegate.swift */; };
 		7C72DE1D2703FC30003B7E4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C72DE1C2703FC30003B7E4A /* SceneDelegate.swift */; };
-		7C72DE1F2703FC30003B7E4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C72DE1E2703FC30003B7E4A /* ViewController.swift */; };
 		7C72DE222703FC30003B7E4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C72DE202703FC30003B7E4A /* Main.storyboard */; };
 		7C72DE242703FC31003B7E4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C72DE232703FC31003B7E4A /* Assets.xcassets */; };
 		7C72DE272703FC31003B7E4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C72DE252703FC31003B7E4A /* LaunchScreen.storyboard */; };
 		7C72DE322703FC31003B7E4A /* InstantGramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C72DE312703FC31003B7E4A /* InstantGramTests.swift */; };
 		7C72DE3C2703FC31003B7E4A /* InstantGramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C72DE3B2703FC31003B7E4A /* InstantGramUITests.swift */; };
 		7C72DE3E2703FC31003B7E4A /* InstantGramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C72DE3D2703FC31003B7E4A /* InstantGramUITestsLaunchTests.swift */; };
+		7C90B9A8270406DB00EFB222 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C90B9A7270406DB00EFB222 /* loginViewController.swift */; };
+		7C90B9AA270406E900EFB222 /* feedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C90B9A9270406E900EFB222 /* feedViewController.swift */; };
+		7C90B9AD2704186E00EFB222 /* cameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C90B9AC2704186E00EFB222 /* cameraViewController.swift */; };
+		7C90B9AF27042E7C00EFB222 /* postCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C90B9AE27042E7C00EFB222 /* postCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07E9DF0D9FE06965D8B4D2EB /* Pods_InstantGram_InstantGramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstantGram_InstantGramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		131172B20C60DA7195C8D2F7 /* Pods-InstantGram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstantGram.release.xcconfig"; path = "Target Support Files/Pods-InstantGram/Pods-InstantGram.release.xcconfig"; sourceTree = "<group>"; };
+		37D5E8E509CF4A8A2282A774 /* Pods_InstantGramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstantGramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F85D6BBA3A922CB07A4C0E /* Pods-InstantGram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstantGram.debug.xcconfig"; path = "Target Support Files/Pods-InstantGram/Pods-InstantGram.debug.xcconfig"; sourceTree = "<group>"; };
 		7C72DE172703FC30003B7E4A /* InstantGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstantGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C72DE1A2703FC30003B7E4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C72DE1C2703FC30003B7E4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7C72DE1E2703FC30003B7E4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7C72DE212703FC30003B7E4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C72DE232703FC31003B7E4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C72DE262703FC31003B7E4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +58,15 @@
 		7C72DE372703FC31003B7E4A /* InstantGramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstantGramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C72DE3B2703FC31003B7E4A /* InstantGramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstantGramUITests.swift; sourceTree = "<group>"; };
 		7C72DE3D2703FC31003B7E4A /* InstantGramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstantGramUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7C90B9A7270406DB00EFB222 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		7C90B9A9270406E900EFB222 /* feedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedViewController.swift; sourceTree = "<group>"; };
+		7C90B9AC2704186E00EFB222 /* cameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cameraViewController.swift; sourceTree = "<group>"; };
+		7C90B9AE27042E7C00EFB222 /* postCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postCell.swift; sourceTree = "<group>"; };
+		7C97730F1AEB46659FF3DE2E /* Pods-InstantGram-InstantGramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstantGram-InstantGramUITests.release.xcconfig"; path = "Target Support Files/Pods-InstantGram-InstantGramUITests/Pods-InstantGram-InstantGramUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9FE67DE9F7305FBE996B869C /* Pods-InstantGramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstantGramTests.debug.xcconfig"; path = "Target Support Files/Pods-InstantGramTests/Pods-InstantGramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A11DC66747DE9D33A094F017 /* Pods-InstantGramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstantGramTests.release.xcconfig"; path = "Target Support Files/Pods-InstantGramTests/Pods-InstantGramTests.release.xcconfig"; sourceTree = "<group>"; };
+		E8D5B601211C00A6D103F649 /* Pods_InstantGram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstantGram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42F745336F89DC98BB2EF43 /* Pods-InstantGram-InstantGramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstantGram-InstantGramUITests.debug.xcconfig"; path = "Target Support Files/Pods-InstantGram-InstantGramUITests/Pods-InstantGram-InstantGramUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3265783462BFE0458C26BA79 /* Pods_InstantGram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B1D4C4A5592D23864041EE4 /* Pods_InstantGramTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F1E21AB1D96A5E1CC953029 /* Pods_InstantGram_InstantGramUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +104,8 @@
 				7C72DE302703FC31003B7E4A /* InstantGramTests */,
 				7C72DE3A2703FC31003B7E4A /* InstantGramUITests */,
 				7C72DE182703FC30003B7E4A /* Products */,
+				DB2749D30A72BE2F5C54D1CC /* Pods */,
+				97DFD4EAC8B1F8C7096EF84A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +124,14 @@
 			children = (
 				7C72DE1A2703FC30003B7E4A /* AppDelegate.swift */,
 				7C72DE1C2703FC30003B7E4A /* SceneDelegate.swift */,
-				7C72DE1E2703FC30003B7E4A /* ViewController.swift */,
 				7C72DE202703FC30003B7E4A /* Main.storyboard */,
 				7C72DE232703FC31003B7E4A /* Assets.xcassets */,
 				7C72DE252703FC31003B7E4A /* LaunchScreen.storyboard */,
 				7C72DE282703FC31003B7E4A /* Info.plist */,
+				7C90B9A7270406DB00EFB222 /* loginViewController.swift */,
+				7C90B9A9270406E900EFB222 /* feedViewController.swift */,
+				7C90B9AC2704186E00EFB222 /* cameraViewController.swift */,
+				7C90B9AE27042E7C00EFB222 /* postCell.swift */,
 			);
 			path = InstantGram;
 			sourceTree = "<group>";
@@ -127,6 +153,29 @@
 			path = InstantGramUITests;
 			sourceTree = "<group>";
 		};
+		97DFD4EAC8B1F8C7096EF84A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8D5B601211C00A6D103F649 /* Pods_InstantGram.framework */,
+				07E9DF0D9FE06965D8B4D2EB /* Pods_InstantGram_InstantGramUITests.framework */,
+				37D5E8E509CF4A8A2282A774 /* Pods_InstantGramTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB2749D30A72BE2F5C54D1CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74F85D6BBA3A922CB07A4C0E /* Pods-InstantGram.debug.xcconfig */,
+				131172B20C60DA7195C8D2F7 /* Pods-InstantGram.release.xcconfig */,
+				F42F745336F89DC98BB2EF43 /* Pods-InstantGram-InstantGramUITests.debug.xcconfig */,
+				7C97730F1AEB46659FF3DE2E /* Pods-InstantGram-InstantGramUITests.release.xcconfig */,
+				9FE67DE9F7305FBE996B869C /* Pods-InstantGramTests.debug.xcconfig */,
+				A11DC66747DE9D33A094F017 /* Pods-InstantGramTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C72DE412703FC31003B7E4A /* Build configuration list for PBXNativeTarget "InstantGram" */;
 			buildPhases = (
+				B36588C148C38E9FFE088F50 /* [CP] Check Pods Manifest.lock */,
 				7C72DE132703FC30003B7E4A /* Sources */,
 				7C72DE142703FC30003B7E4A /* Frameworks */,
 				7C72DE152703FC30003B7E4A /* Resources */,
+				406B83F0D86D026D359BB94C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C72DE442703FC31003B7E4A /* Build configuration list for PBXNativeTarget "InstantGramTests" */;
 			buildPhases = (
+				247FA8F3215943B58CF78DD5 /* [CP] Check Pods Manifest.lock */,
 				7C72DE292703FC31003B7E4A /* Sources */,
 				7C72DE2A2703FC31003B7E4A /* Frameworks */,
 				7C72DE2B2703FC31003B7E4A /* Resources */,
@@ -169,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C72DE472703FC31003B7E4A /* Build configuration list for PBXNativeTarget "InstantGramUITests" */;
 			buildPhases = (
+				F8B15DADD9C6C6FAC426C2DE /* [CP] Check Pods Manifest.lock */,
 				7C72DE332703FC31003B7E4A /* Sources */,
 				7C72DE342703FC31003B7E4A /* Frameworks */,
 				7C72DE352703FC31003B7E4A /* Resources */,
+				0512E871669AA8A1E717428C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +307,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0512E871669AA8A1E717428C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstantGram-InstantGramUITests/Pods-InstantGram-InstantGramUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstantGram-InstantGramUITests/Pods-InstantGram-InstantGramUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InstantGram-InstantGramUITests/Pods-InstantGram-InstantGramUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		247FA8F3215943B58CF78DD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstantGramTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		406B83F0D86D026D359BB94C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstantGram/Pods-InstantGram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstantGram/Pods-InstantGram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InstantGram/Pods-InstantGram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B36588C148C38E9FFE088F50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstantGram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8B15DADD9C6C6FAC426C2DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstantGram-InstantGramUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7C72DE132703FC30003B7E4A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C72DE1F2703FC30003B7E4A /* ViewController.swift in Sources */,
 				7C72DE1B2703FC30003B7E4A /* AppDelegate.swift in Sources */,
+				7C90B9AF27042E7C00EFB222 /* postCell.swift in Sources */,
 				7C72DE1D2703FC30003B7E4A /* SceneDelegate.swift in Sources */,
+				7C90B9AD2704186E00EFB222 /* cameraViewController.swift in Sources */,
+				7C90B9AA270406E900EFB222 /* feedViewController.swift in Sources */,
+				7C90B9A8270406DB00EFB222 /* loginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +594,7 @@
 		};
 		7C72DE422703FC31003B7E4A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74F85D6BBA3A922CB07A4C0E /* Pods-InstantGram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,6 +623,7 @@
 		};
 		7C72DE432703FC31003B7E4A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 131172B20C60DA7195C8D2F7 /* Pods-InstantGram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -490,6 +652,7 @@
 		};
 		7C72DE452703FC31003B7E4A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FE67DE9F7305FBE996B869C /* Pods-InstantGramTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +678,7 @@
 		};
 		7C72DE462703FC31003B7E4A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A11DC66747DE9D33A094F017 /* Pods-InstantGramTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -540,6 +704,7 @@
 		};
 		7C72DE482703FC31003B7E4A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F42F745336F89DC98BB2EF43 /* Pods-InstantGram-InstantGramUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -563,6 +728,7 @@
 		};
 		7C72DE492703FC31003B7E4A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C97730F1AEB46659FF3DE2E /* Pods-InstantGram-InstantGramUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
